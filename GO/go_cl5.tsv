@@ -1,0 +1,340 @@
+Parent	GO biological process complete	ref	list	expected	Fold Enrichment	+/-	raw P value	FDR
+*	electron transport coupled proton transport	4	3	0	> 100	+	3.81E-09	3.20E-06
+-	"energy coupled proton transmembrane transport, against electrochemical gradient"	4	3	0	> 100	+	3.81E-09	3.04E-06
+-	proton transmembrane transport	142	7	0.07	93.44	+	2.65E-13	3.85E-10
+-	monovalent inorganic cation transport	408	7	0.22	32.52	+	3.61E-10	3.60E-07
+-	cation transport	843	7	0.44	15.74	+	5.20E-08	3.19E-05
+-	ion transport	1342	7	0.71	9.89	+	1.22E-06	6.08E-04
+-	inorganic cation transmembrane transport	573	7	0.3	23.16	+	3.71E-09	3.29E-06
+-	cation transmembrane transport	638	7	0.34	20.8	+	7.75E-09	5.89E-06
+-	ion transmembrane transport	913	7	0.48	14.53	+	8.96E-08	5.30E-05
+-	transmembrane transport	1298	7	0.68	10.22	+	9.74E-07	5.02E-04
+-	inorganic ion transmembrane transport	663	7	0.35	20.01	+	1.01E-08	7.31E-06
+*	"mitochondrial electron transport, cytochrome c to oxygen"	20	3	0.01	> 100	+	1.92E-07	1.06E-04
+-	mitochondrial ATP synthesis coupled electron transport	88	9	0.05	> 100	+	3.79E-20	2.02E-16
+-	ATP synthesis coupled electron transport	89	9	0.05	> 100	+	4.17E-20	1.66E-16
+-	respiratory electron transport chain	108	9	0.06	> 100	+	2.19E-19	5.81E-16
+-	electron transport chain	175	9	0.09	97.49	+	1.44E-17	2.87E-14
+-	oxidation-reduction process	962	9	0.51	17.73	+	5.00E-11	5.32E-08
+-	metabolic process	8492	11	4.48	2.46	+	5.14E-05	2.28E-02
+-	generation of precursor metabolites and energy	411	11	0.22	50.73	+	2.04E-19	6.51E-16
+-	cellular metabolic process	7742	11	4.08	2.69	+	1.86E-05	8.73E-03
+-	cellular respiration	158	9	0.08	> 100	+	5.89E-18	1.34E-14
+-	energy derivation by oxidation of organic compounds	228	9	0.12	74.82	+	1.46E-16	2.59E-13
+-	oxidative phosphorylation	119	11	0.06	> 100	+	3.57E-25	5.70E-21
+-	phosphorylation	1306	11	0.69	15.97	+	6.10E-14	9.74E-11
+-	phosphate-containing compound metabolic process	2150	11	1.13	9.7	+	1.44E-11	1.92E-08
+-	phosphorus metabolic process	2177	11	1.15	9.58	+	1.65E-11	2.03E-08
+-	ATP metabolic process	207	11	0.11	> 100	+	1.26E-22	1.00E-18
+-	aerobic electron transport chain	20	3	0.01	> 100	+	1.92E-07	1.02E-04
+-	aerobic respiration	78	5	0.04	> 100	+	4.00E-10	3.76E-07
+*	"mitochondrial electron transport, NADH to ubiquinone"	49	5	0.03	> 100	+	4.39E-11	5.00E-08
+*	mitochondrial ATP synthesis coupled proton transport	21	2	0.01	> 100	+	6.36E-05	2.74E-02
+-	ATP synthesis coupled proton transport	25	2	0.01	> 100	+	8.81E-05	3.60E-02
+-	"energy coupled proton transport, down electrochemical gradient"	25	2	0.01	> 100	+	8.81E-05	3.51E-02
+*	response to hyperoxia	21	2	0.01	> 100	+	6.36E-05	2.67E-02
+-	response to increased oxygen levels	28	2	0.01	> 100	+	1.09E-04	4.25E-02
+-	response to abiotic stimulus	1165	6	0.61	9.76	+	1.12E-05	5.41E-03
+*	mitochondrial respiratory chain complex I assembly	65	4	0.03	> 100	+	3.55E-08	2.36E-05
+-	NADH dehydrogenase complex assembly	65	4	0.03	> 100	+	3.55E-08	2.47E-05
+-	cellular protein-containing complex assembly	801	5	0.42	11.83	+	3.23E-05	1.47E-02
+-	mitochondrial respiratory chain complex assembly	99	4	0.05	76.59	+	1.80E-07	1.03E-04
+-	mitochondrion organization	449	6	0.24	25.33	+	4.39E-08	2.80E-05
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
