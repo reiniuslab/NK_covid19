@@ -1,3 +1,21 @@
 # NK_covid19
 
-Pre-processed data from GSE145926
+Pre-processed data from GSE145926:
+```
+GSM4339769_C141_filtered_feature_bc_matrix.h5
+GSM4339770_C142_filtered_feature_bc_matrix.h5
+GSM4339771_C143_filtered_feature_bc_matrix.h5
+GSM4339772_C144_filtered_feature_bc_matrix.h5
+GSM4339773_C145_filtered_feature_bc_matrix.h5
+GSM4339774_C146_filtered_feature_bc_matrix.h5
+GSM4475048_C51_filtered_feature_bc_matrix.h5
+GSM4475049_C52_filtered_feature_bc_matrix.h5
+GSM4475050_C100_filtered_feature_bc_matrix.h5
+GSM4475051_C148_filtered_feature_bc_matrix.h5
+GSM4475052_C149_filtered_feature_bc_matrix.h5
+GSM4475053_C152_filtered_feature_bc_matrix.h5
+```
+Annotations from https://github.com/zhangzlab/covid_balf:
+```
+all.cell.annotation.meta.txt
+```
