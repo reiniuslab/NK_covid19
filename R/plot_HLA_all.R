@@ -37,8 +37,6 @@ dat.hla <- as.data.table(melt(logcounts(sce.all.filt)[gnls.hla,]))
 dat.hla[, group := rep(sce.all.filt$group,each=length(gnls.hla))]
 dat.hla[, celltype := rep(sce.all.filt$celltype,each=length(gnls.hla))]
 
-# fwrite(t(dcast(dat.hla, Var1~celltype+group+Var2, fun.aggregate=mean)), "out/hla_expression.tsv",quote = F,sep = "\t")
-
 library(ggplot2)
 library(cowplot)
 p.violin.hla <- 
@@ -51,7 +49,3 @@ p.violin.hla <-
     theme(strip.background = element_blank(), axis.title.x = element_blank())
 
 ggsave2("plots/violin_hla_all.pdf",width = 12,height = 7, p.violin.hla)
-
-sink("out/hla_fdr.tsv")
-  by(dat.hla, list(dat.hla$celltype, dat.hla$Var1), FUN = function(x) with(x, pairwise.wilcox.test(value, group, "fdr"))$p.value )
-sink()
