@@ -49,3 +49,5 @@ p.violin.hla <-
     theme(strip.background = element_blank(), axis.title.x = element_blank())
 
 ggsave2("plots/violin_hla_all.pdf",width = 12,height = 7, p.violin.hla)
+                   
+by(dat.hla, list(dat.hla$celltype, dat.hla$Var1), FUN = function(x) with(x, pairwise.wilcox.test(value, group, "fdr"))$p.value )
