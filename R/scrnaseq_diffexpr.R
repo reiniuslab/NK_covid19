@@ -56,24 +56,6 @@ dat.melt <- as.data.table(melt(assay(sce.nk.filt2,"scaled_logcounts")[gn.diff,])
 dat.melt[,cl := rep(gn.cl,ncol(sce.nk.filt2))]
 dat.melt[,group := rep(sce.nk.filt2$group, each = length(gn.diff))]
 
-library(ggplot2)
-library(cowplot)
-library(ggrepel)
-gnls.volcano <- toupper(c("slc3a2","klrc2","cxcr6","havcr2","prf1","gzmb","ccl4","b3gat1","mki67","klrg1","tigit","ifng","il2ra","hla-dr","fcgr3a","ncam1","klrk1","cd38","cd69","fgfbp2","sell","klrc1"))
-
-p.volcano <-
-  ggplot(res.dt, aes(x=log2(exp(logFC)),y=-log10(fdr) )) +
-  geom_point(show.legend = F, col="grey") +
-  #geom_vline(xintercept=0, col="grey", lty=2) +
-  geom_text_repel(data=res.dt[fdr < 0.05,list(gene=gene[gene %in% gnls.volcano],logFC=logFC[gene %in% gnls.volcano],fdr=fdr[gene %in% gnls.volcano] ), by = .id], show.legend = F, size=2, min.segment.length = unit(0, 'lines'), aes(label=gene)) +
-  labs(y="-log10 FDR", x="log2 fold change") +
-  facet_wrap(~.id) +
-  theme_cowplot() +
-  theme(strip.background = element_blank())
-
-ggsave2("plots/volcano_plot.pdf", p.volcano, height = 3, width = 5)
-##
-
 library(ComplexHeatmap)
 library(circlize)
 library(RColorBrewer)
